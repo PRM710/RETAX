@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧾 Next.js Invoice Project
 
-## Getting Started
+This project displays a simple **invoice page** using **Next.js 16** with data fetched from a public API.  
+It also includes a **Print Invoice** feature that allows users to select 1, 2, or 3 copies before printing.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+- Built with **Next.js (App Router)**  
+- Uses **fetch API** for data integration  
+- No use of `useState`, `useEffect`, or Context API  
+- Clean and professional bill-like layout  
+- Supports printing multiple copies directly from the browser  
+
+---
+
+## 🧩 API Used
+
+The project uses mock invoice data hosted on **myjson.online**:
+
+🔗 **API URL:** [https://myjson.online/api/quick/a6274d23-cd8d-484c-9ad1-7b1981fa014d](https://myjson.online/api/quick/a6274d23-cd8d-484c-9ad1-7b1981fa014d)
+
+### API Data Format
+```json
+[
+  {
+    "invoice_number": 1,
+    "client_name": "PRAKASH MANE",
+    "date": "26/10/2025",
+    "amount": "₹500",
+    "description": "food for prakash"
+  }
+]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This mock API was created using **https://myjson.online/** to simulate a backend response.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧱 Project Structure
 
-## Learn More
+```
+invoice-app/
+│
+├─ app/
+│   ├─ page.js            # Server-side component for fetching and displaying invoices
+│   ├─ PrintInvoice.js    # Client component for handling print functionality
+│
+├─ styles/
+│   └─ globals.css        # Global styles for invoice layout
+│
+├─ package.json
+└─ next.config.js
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ How to Run Locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/invoice-app.git
+cd invoice-app
+```
 
-## Deploy on Vercel
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3️⃣ Run the Development Server
+```bash
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Then open **http://localhost:3000** in your browser.
+
+---
+
+## 🖨️ Printing
+
+Click the **"Print Invoice"** button to open the browser print dialog.  
+You will be asked to enter how many copies (1, 2, or 3) you want to print.
+
+---
+
+## 💡 Notes
+
+- The project does **not** use `useState`, `useEffect`, or Context API.
+- All interactivity (printing) is handled in a **Client Component**.
+- The invoice layout mimics a traditional printed bill with dashed separators.
+
+---
+
+Made with ❤️ by **Prakash Mane**
