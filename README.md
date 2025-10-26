@@ -54,7 +54,7 @@ invoice-app/
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -82,13 +82,3 @@ Click the **"Print Invoice"** button to open the browser print dialog.
 You will be asked to enter how many copies (1, 2, or 3) you want to print.
 
 ---
-
-## 💡 Notes
-
-- The project does **not** use `useState`, `useEffect`, or Context API.
-- All interactivity (printing) is handled in a **Client Component**.
-- The invoice layout mimics a traditional printed bill with dashed separators.
-
----
-
-Made with ❤️ by **Prakash Mane**
