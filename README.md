@@ -1,4 +1,4 @@
-# 🧾 Next.js Invoice Project
+#  Next.js Invoice Project
 
 This project displays a simple **invoice page** using **Next.js 16** with data fetched from a public API.  
 It also includes a **Print Invoice** feature that allows users to select 1, 2, or 3 copies before printing.  
@@ -76,7 +76,7 @@ Then open **http://localhost:3000** in your browser.
 
 ---
 
-## 🖨️ Printing
+## Printing
 
 Click the **"Print Invoice"** button to open the browser print dialog.  
 You will be asked to enter how many copies (1, 2, or 3) you want to print.
