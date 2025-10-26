@@ -5,7 +5,7 @@ It also includes a **Print Invoice** feature that allows users to select 1, 2, o
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Built with **Next.js (App Router)**  
 - Uses **fetch API** for data integration  
@@ -15,11 +15,11 @@ It also includes a **Print Invoice** feature that allows users to select 1, 2, o
 
 ---
 
-## 🧩 API Used
+##  API Used
 
 The project uses mock invoice data hosted on **myjson.online**:
 
-🔗 **API URL:** [https://myjson.online/api/quick/a6274d23-cd8d-484c-9ad1-7b1981fa014d](https://myjson.online/api/quick/a6274d23-cd8d-484c-9ad1-7b1981fa014d)
+ **API URL:** [https://myjson.online/api/quick/a6274d23-cd8d-484c-9ad1-7b1981fa014d](https://myjson.online/api/quick/a6274d23-cd8d-484c-9ad1-7b1981fa014d)
 
 ### API Data Format
 ```json
@@ -38,7 +38,7 @@ This mock API was created using **https://myjson.online/** to simulate a backend
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 invoice-app/
@@ -46,9 +46,7 @@ invoice-app/
 ├─ app/
 │   ├─ page.js            # Server-side component for fetching and displaying invoices
 │   ├─ PrintInvoice.js    # Client component for handling print functionality
-│
-├─ styles/
-│   └─ globals.css        # Global styles for invoice layout
+│   ├─ globals.css        # Global styles for invoice layout 
 │
 ├─ package.json
 └─ next.config.js
