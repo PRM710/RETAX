@@ -10,7 +10,7 @@ It also includes a **Print Invoice** feature that allows users to select 1, 2, o
 - Built with **Next.js (App Router)**  
 - Uses **fetch API** for data integration  
 - No use of `useState`, `useEffect`, or Context API  
-- Clean and professional bill-like layout  
+- Clean and professional bill like layout  
 - Supports printing multiple copies directly from the browser  
 
 ---
