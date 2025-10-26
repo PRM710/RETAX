@@ -56,18 +56,18 @@ invoice-app/
 
 ## How to Run Locally
 
-### 1️⃣ Clone the Repository
+### 1] Clone the Repository
 ```bash
 git clone https://github.com/your-username/invoice-app.git
 cd invoice-app
 ```
 
-### 2️⃣ Install Dependencies
+### 2] Install Dependencies
 ```bash
 npm install
 ```
 
-### 3️⃣ Run the Development Server
+### 3] Run the Development Server
 ```bash
 npm run dev
 ```
